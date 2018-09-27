@@ -12,7 +12,7 @@ int main(void)
    
    system("pause");
    return ;
-   printf("Hello World!\n");
+   printf("陳賢家!\n");
 }
 ```
 ```
