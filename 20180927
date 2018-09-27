@@ -1,9 +1,8 @@
 
 # 說明下列程式的關鍵
 
-```
 /* myc_1_1, 我的第一個C程式碼 */ 
-#include <stdio.h>
+include <stdio.h>
 #include <stdlib.h>
 int main(void)
 {
