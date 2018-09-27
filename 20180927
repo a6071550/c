@@ -2,7 +2,7 @@
 # 說明下列程式的關鍵
 
 /* myc_1_1, 我的第一個C程式碼 */ 
-include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 int main(void)
 {
@@ -29,3 +29,31 @@ std英文全名為何?
 lib是何意義??
 ```
 ```
+#include <stdio.h>
+#include <stdlib.h>
+printme()
+{
+	   printf("Hello 偉大的恩師!\n");  	/* 印出Hello 偉大的恩師! 字串 */
+	   printf("Hello Taiwan!\n") ;  /* 印出Hello Taiwan! 字串 */   
+}
+
+printtree()
+{
+      printf("    \n"); 
+      printf("    \n"); 
+      printf("    *    \n"); 
+      printf("   ***    \n"); 
+      printf("  *****    \n");
+      printf(" *******    \n");
+}
+      
+
+int main(void)
+{
+   printf("我是史上最霹靂無敵的XXXX!\n");
+   printme();
+   printtree();
+//  system("pause");
+   return ;
+   printf("Hello World!\n");
+}
