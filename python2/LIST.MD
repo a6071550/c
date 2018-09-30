@@ -44,7 +44,7 @@ for i in range(1,85):
             print(x)
 
 ```
-### 第三隻PYTHON程式
+### 第四隻PYTHON程式
 ```
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
@@ -66,3 +66,16 @@ if (leap == 1) and (month > 2):
     sum += 1
 print 'it is the %dth day.' % sum
 ```
+### 第五隻PYTHON程式
+```
+
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+l = []
+for i in range(3):
+    x = int(raw_input('integer:\n'))
+    l.append(x)
+l.sort()
+print l
+
