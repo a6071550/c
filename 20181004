@@ -1,15 +1,17 @@
-
-#include <stdio.h>
-#include <stdlib.h>
-int main(void)
-{
- 
-   printf("恩師好 我是學生陳賢家");
-   printf("這是我的c300_2\n");
-   char ch;
-   printf("Input a character:");
-   scanf("%c",&ch);	  /*由鍵盤輸入字元並指定給變數ch*/
-   printf("ch=%c, The ASCII code is %d\n",ch,ch);
-   system("pause");
-   return 0; 
-}
+root@kali:~/4070E004# gedit c300_2.c
+root@kali:~/4070E004# gcc c300_2.c -o c300_2
+root@kali:~/4070E004# ./c300_2
+恩師好 我是學生陳賢家這是我的c300_2
+Input a character:k
+ch=%, The ASCII code is 107
+sh: 1: pause: not found
+root@kali:~/4070E004# z
+bash: z: command not found
+root@kali:~/4070E004# ./c300_2
+恩師好 我是學生陳賢家這是我的c300_2
+Input a character:z
+ch=%, The ASCII code is 122
+sh: 1: pause: not found
+root@kali:~/4070E004# ^C
+root@kali:~/4070E004# ^C
+root@kali:~/4070E004# 
