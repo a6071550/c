@@ -372,3 +372,47 @@ for i in range(1, tim + 1):
  
 print('总高度：tour = {0}'.format(sum(tour)))
 print('第10次反弹高度：height = {0}'.format(height[-1]))
+```
+### 第二十一支PYTHON程式
+```
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+x2 = 1
+for day in range(9,0,-1):
+    x1 = (x2 + 1) * 2
+    x2 = x1
+print x1
+```
+### 第二十二支PYTHON程式
+```
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+for i in range(ord('x'),ord('z') + 1):
+    for j in range(ord('x'),ord('z') + 1):
+        if i != j:
+            for k in range(ord('x'),ord('z') + 1):
+                if (i != k) and (j != k):
+                    if (i != ord('x')) and (k != ord('x')) and (k != ord('z')):
+                        print 'order is a -- %s\t b -- %s\tc--%s' % (chr(i),chr(j),chr(k))
+```
+### 第二十三支PYTHON程式
+```
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+from sys import stdout
+for i in range(4):
+    for j in range(2 - i + 1):
+        stdout.write(' ')
+    for k in range(2 * i + 1):
+        stdout.write('*')
+    print
+ 
+for i in range(3):
+    for j in range(i + 1):
+        stdout.write(' ')
+    for k in range(4 - 2 * i + 1):
+        stdout.write('*')
+    print
