@@ -1,3 +1,6 @@
+# 程式設計
+### 使用三種迴圈完成1+5+9+..+401等差之總和
+```
 #include <stdio.h>
 #include <stdlib.h>
 int for_1(int x) /* for */
@@ -46,3 +49,4 @@ int main(void)
     system("pause");
     return 0;
 }	
+
